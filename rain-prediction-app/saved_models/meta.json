@@ -1,0 +1,56 @@
+{
+  "num_cols": [
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustSpeed",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm"
+  ],
+  "cat_cols": [
+    "WindGustDir",
+    "WindDir9am",
+    "WindDir3pm",
+    "RainToday"
+  ],
+  "all_features": [
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustDir",
+    "WindGustSpeed",
+    "WindDir9am",
+    "WindDir3pm",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm",
+    "RainToday"
+  ],
+  "best_model": "Gradient Boosting",
+  "best_model_file": "gradient_boosting.pkl",
+  "model_names": [
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest",
+    "Gradient Boosting"
+  ]
+}
